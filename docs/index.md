@@ -10,13 +10,16 @@ hero:
     src: /logo.png
     alt: test image alt
   actions:
-    - text: test action 1
+    - text: 前端物语
       link: /fe/es6/
-    - text: test action 2
+    - text: 前端导航
       link: /nav
       theme: alt
-    - text: test action 3
+    - text: 日常笔记
       link: /daily-notes/
+    - text: mmPlayer
+      link: https://netease-music.fe-mm.com
+      theme: alt
 features:
   - icon: 📖
     title: 前端物语
@@ -34,13 +37,32 @@ features:
     link: /workflow/utils/library
     linkText: 常用工具库
 ---
+
+<script setup>
+import MFriends from './home/MFriends.vue'
 </script>
+
+<ClientOnly>
+  <MFriends/>
+</ClientOnly>
+**本站信息**：
+
+- 网站名称: **茂茂物语**
+- 网站描述: **茂茂的成长之路，包含前端常用知识、源码阅读笔记、各种奇淫技巧、日常提效工具等**
+- 网站地址：**<https://notes.fe-mm.com>**
+- 网站图标：**<https://notes.fe-mm.com/logo.png>**
+
+```json
 {
-  "title": "L4plAce",
-  "desc": "沉溺于电子之海",
+  "title": "茂茂物语",
+  "desc": "茂茂的成长之路，包含前端常用知识、源码阅读笔记、各种奇淫技巧、日常提效工具等",
   "link": "https://notes.fe-mm.com",
   "icon": "https://notes.fe-mm.com/logo.png"
 }
+```
+
+:::
+
 <style>
 /*爱的魔力转圈圈*/
 .m-home-layout .image-src:hover {
