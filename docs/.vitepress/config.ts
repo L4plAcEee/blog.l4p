@@ -45,7 +45,7 @@ export default defineConfig({
 
     footer: {
       message: '如有转载或 CV 的请标注本站原文地址',
-      copyright: 'Copyright © 2019-present L4plAce',
+      copyright: 'Copyright © 2024-present L4plAce',
     },
 
     lastUpdated: {

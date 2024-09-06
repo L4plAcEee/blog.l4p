@@ -4,11 +4,11 @@ export const nav: DefaultTheme.Config['nav'] = [
 
   { text: '源码阅读', link: '/doc_analysis/react/18', activeMatch: '^/doc_analysis' },
   {
-    text: 'Workflow',
+    text: '施工中...',
     items: [
 
     ],
-    activeMatch: '^/doc_workflow'
+    activeMatch: '^/doc_learning'
   },
   {
     text: '笔记',
@@ -17,6 +17,7 @@ export const nav: DefaultTheme.Config['nav'] = [
       {
         text: '踩坑记录',
         items: [
+
         ]
       }
     ],
