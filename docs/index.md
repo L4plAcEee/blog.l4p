@@ -38,28 +38,12 @@ features:
     linkText: 常用工具库
 ---
 
-<script setup>
-import MFriends from './home/MFriends.vue'
-</script>
-
-<ClientOnly>
-  <MFriends/>
-</ClientOnly>
-**本站信息**：
-
-- 网站名称: **茂茂物语**
-- 网站描述: **茂茂的成长之路，包含前端常用知识、源码阅读笔记、各种奇淫技巧、日常提效工具等**
-- 网站地址：**<https://notes.fe-mm.com>**
-- 网站图标：**<https://notes.fe-mm.com/logo.png>**
-
-```json
 {
   "title": "茂茂物语",
   "desc": "茂茂的成长之路，包含前端常用知识、源码阅读笔记、各种奇淫技巧、日常提效工具等",
   "link": "https://notes.fe-mm.com",
   "icon": "https://notes.fe-mm.com/logo.png"
 }
-```
 
 :::
 
