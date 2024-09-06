@@ -3,19 +3,19 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: test name
-  text: test text
-  tagline: test tagline
+  name: L4plAce
+  text: 起舞于电子之海
+  tagline: 手与手相互交叠，于此引发的，是你我共创的奇迹。
   image:
     src: /logo.png
     alt: test image alt
   actions:
-    - text: test action 1
+    - text: Start Reading
       link: /fe/es6/
-    - text: test action 2
+    - text: 闪现灵感
       link: /nav
       theme: alt
-    - text: test action 3
+    - text: 日常感悟
       link: /daily-notes/
 features:
   - icon: 📖
@@ -34,17 +34,6 @@ features:
     link: /workflow/utils/library
     linkText: 常用工具库
 ---
-
-::: card
-```json
-{
-  "title": "L4plAce",
-  "desc": "沉溺于电子之海",
-  "link": "https://notes.fe-mm.com",
-  "icon": "https://notes.fe-mm.com/logo.png"
-}
-```
-:::
 
 <style>
 /*爱的魔力转圈圈*/
