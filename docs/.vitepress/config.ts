@@ -11,8 +11,8 @@ export default defineConfig({
   base: APP_BASE_PATH ? `/${APP_BASE_PATH}/` : '/',
 
   lang: 'zh-CN',
-  title: '茂茂物语',
-  description: '茂茂的成长之路，包含前端常用知识、源码阅读笔记、各种奇淫技巧、日常提效工具等',
+  title: 'Recording by L4place',
+  description: '起舞于电子之海',
   head,
 
   lastUpdated: true,
@@ -41,11 +41,11 @@ export default defineConfig({
       label: '目录',
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/maomao1996' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/L4plAcEee' }],
 
     footer: {
       message: '如有转载或 CV 的请标注本站原文地址',
-      copyright: 'Copyright © 2019-present maomao',
+      copyright: 'Copyright © 2019-present L4plAce',
     },
 
     lastUpdated: {
@@ -85,7 +85,7 @@ export default defineConfig({
 
   /* 生成站点地图 */
   sitemap: {
-    hostname: 'https://notes.fe-mm.com/',
+    hostname: 'https://www.l4place.icu/',
   },
 
   vite: {

@@ -1,7 +1,7 @@
 {
-  "name": "茂茂物语",
-  "short_name": "茂茂物语",
-  "description": "Mao Mao 的成长之路",
+  "name": "Blog by L4plAce",
+  "short_name": "L4p Blog",
+  "description": "Just recording",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#000000",
