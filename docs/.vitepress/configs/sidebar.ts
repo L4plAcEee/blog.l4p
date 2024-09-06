@@ -16,10 +16,6 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '原型和原型链', link: '/doc_learning/javascript/prototype' },
         { text: '继承', link: '/doc_learning/javascript/inherit' }
       ]
-    },
-    {
-      text: 'ES6 常用知识点',
-      link: '/doc_learning/es6/'
     }
   ],
   '/doc_analysis/': [
