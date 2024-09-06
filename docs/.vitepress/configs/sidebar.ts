@@ -7,14 +7,18 @@ const sidebarDailyNotes: DefaultTheme.SidebarItem[] =
 export const sidebar: DefaultTheme.Config['sidebar'] = {
   '/doc_learning/': [
     {
-      text: 'JavaScript 基础知识',
+      text: '从零开始的C++学习',
       collapsed: false,
       items: [
-        { text: '数据类型', link: '/doc_learning/javascript/types' },
-        { text: '引用类型的拷贝', link: '/doc_learning/javascript/clone' },
-        { text: '类型转换', link: '/doc_learning/javascript/conversions' },
-        { text: '原型和原型链', link: '/doc_learning/javascript/prototype' },
-        { text: '继承', link: '/doc_learning/javascript/inherit' }
+        { text: '[0]', link: '/doc_learning/cpp/[0]' },
+        { text: '[1]', link: '/doc_learning/cpp/[1]' },
+      ]
+    },
+    {
+      text: 'Python从入门到入土',
+      collapsed: false,
+      items: [
+        { text: 'Python 基础', link: '/doc_learning/python/[0]' },
       ]
     }
   ],
