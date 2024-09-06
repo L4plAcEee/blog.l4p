@@ -59,19 +59,6 @@ import MFriends from './home/MFriends.vue'
 <ClientOnly>
   <MFriends/>
 </ClientOnly>
-
-::: details 申请友链
-
-**友链要求**:
-
-- 网站应保持清洁，避免过多广告内容
-- 网站需要有良好的稳定性和可靠性
-
-**申请方式**:
-
-1. 在本页面留言
-2. 直接访问 [GitHub 友链申请页面](https://github.com/maomao1996/mm-notes/issues/95) 提交您的申请
-
 **本站信息**：
 
 - 网站名称: **茂茂物语**
