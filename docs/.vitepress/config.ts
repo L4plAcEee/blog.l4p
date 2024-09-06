@@ -72,14 +72,14 @@ export default defineConfig({
 
     /*** 自定义配置 ***/
     visitor: {
-      badgeId: '',
+      badgeId: 'L4plAcEee.notes',
     },
 
     comment: {
-      repo: '',
-      repoId: '',
-      category: '',
-      categoryId: '',
+      repo: 'L4plAcEee/blog.l4p',
+      repoId: 'R_kgDOMt2tMg',
+      category: 'Announcements',
+      categoryId: 'U_kgDOChSB9g',
     },
   },
 
