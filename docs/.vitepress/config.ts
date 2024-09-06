@@ -11,7 +11,7 @@ export default defineConfig({
   base: APP_BASE_PATH ? `/${APP_BASE_PATH}/` : '/',
 
   lang: 'zh-CN',
-  title: 'Recording by L4place',
+  title: 'Recording by L4plAce',
   description: '起舞于电子之海',
   head,
 
@@ -72,14 +72,14 @@ export default defineConfig({
 
     /*** 自定义配置 ***/
     visitor: {
-      badgeId: 'maomao1996.notes',
+      badgeId: '',
     },
 
     comment: {
-      repo: 'maomao1996/mm-note',
-      repoId: 'MDEwOlJlcG9zaXRvcnkxNTc0ODc5Mjg=',
-      category: 'Announcements',
-      categoryId: 'DIC_kwDOCWMTOM4CZ2rf',
+      repo: '',
+      repoId: '',
+      category: '',
+      categoryId: '',
     },
   },
 
