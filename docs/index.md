@@ -15,8 +15,6 @@ hero:
     - text: 闪现灵感
       link: /nav
       theme: alt
-    - text: 日常感悟
-      link: /daily-notes/
 features:
   - icon: 📖
     title: 前端物语
