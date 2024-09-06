@@ -11,7 +11,7 @@ export default defineConfig({
   base: APP_BASE_PATH ? `/${APP_BASE_PATH}/` : '/',
 
   lang: 'zh-CN',
-  title: 'Recording by L4plAce',
+  title: 'L4plAce',
   description: '起舞于电子之海',
   head,
 
