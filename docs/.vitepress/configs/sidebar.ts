@@ -5,17 +5,69 @@ const sidebarDailyNotes: DefaultTheme.SidebarItem[] =
   fs.readJSONSync('./scripts/daily-notes.json', { throws: false }) || []
 
 export const sidebar: DefaultTheme.Config['sidebar'] = {
-  '/文档/learning/': [
+  '/fe/': [
     {
-      text: '从零开始的C++学习',
+      text: 'JavaScript 基础知识',
       collapsed: false,
       items: [
-        { text: '数据类型', link: '/docs/文档/learning/从零开始的cpp学习/[0].0-based 的魅力.md' },
-        { text: '引用类型的拷贝', link: '/docs/文档/learning/从零开始的cpp学习/[1].待施工.md' }
+        { text: '数据类型', link: '/fe/javascript/types' },
+        { text: '引用类型的拷贝', link: '/fe/javascript/clone' },
+        { text: '类型转换', link: '/fe/javascript/conversions' },
+        { text: '原型和原型链', link: '/fe/javascript/prototype' },
+        { text: '继承', link: '/fe/javascript/inherit' }
       ]
+    },
+    {
+      text: 'ES6 常用知识点',
+      link: '/fe/es6/'
+    },
+    {
+      text: 'TypeScript',
+      collapsed: false,
+      items: [
+        { text: '基础知识', link: '/fe/typescript/base' },
+        { text: '编译配置', link: '/fe/typescript/tsconfig' },
+        { text: '类型体操', link: '/fe/typescript/challenges' }
+      ],
+      link: '/fe/typescript/base'
+    },
+    {
+      text: 'HTML / CSS',
+      collapsed: false,
+      items: [
+        { text: 'HTML 理论知识点', link: '/fe/html/' },
+        { text: 'CSS 理论知识点', link: '/fe/css/' }
+      ]
+    },
+    { text: ' Webpack', link: '/fe/webpack/' },
+    {
+      text: '浏览器与网络',
+      collapsed: false,
+      items: [
+        { text: '浏览器相关知识点', link: '/fe/browser/' },
+        { text: 'TCP', link: '/fe/network/tcp' },
+        { text: 'HTTP', link: '/fe/network/http' }
+      ]
+    },
+    {
+      text: 'Node',
+      collapsed: false,
+      items: [{ text: 'package.json', link: '/fe/node/pkg' }]
+    },
+    {
+      text: '概念知识点',
+      collapsed: false,
+      items: [
+        { text: '模块化', link: '/fe/concept/module' },
+        { text: '前端页面渲染方式', link: '/fe/concept/page-rendering' }
+      ]
+    },
+    {
+      text: '编程题',
+      link: '/fe/coding/'
     }
   ],
-  '/文档/analysis/': [
+  '/analysis/': [
     {
       text: 'React',
       items: [
@@ -33,7 +85,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       ]
     }
   ],
-  '/文档/workflow/': [
+  '/workflow/': [
     {
       text: '编程规范',
       link: '/workflow/style-guide'
@@ -92,7 +144,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       ]
     }
   ],
-  '/文档/efficiency/': [
+  '/efficiency/': [
     {
       text: '软件推荐与配置',
       // collapsed: false,
@@ -108,7 +160,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     { text: '在线工具', link: '/efficiency/online-tools' },
     { text: '书签脚本', link: '/efficiency/bookmark-scripts' }
   ],
-  '/文档/pit/': [
+  '/pit/': [
     {
       text: '踩坑记录',
       // collapsed: false,
@@ -121,5 +173,5 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       ]
     }
   ],
-  '文档//daily-notes': sidebarDailyNotes
+  '/daily-notes': sidebarDailyNotes
 }
