@@ -11,7 +11,7 @@ hero:
     alt: test image alt
   actions:
     - text: Start Reading
-      link: /fe/es6/
+      link: /文章/test1/t1.md
     - text: 闪现灵感
       link: /nav
       theme: alt
