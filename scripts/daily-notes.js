@@ -1,8 +1,8 @@
 import fs from 'fs-extra'
 import { Octokit } from '@octokit/rest'
 
-const owner = 'maomao1996'
-const repo = 'daily-notes'
+const owner = 'L4plAcEee'
+const repo = 'dailyNote'
 
 const octokit = new Octokit()
 
