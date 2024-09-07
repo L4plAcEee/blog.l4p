@@ -12,15 +12,15 @@ hero:
   actions:
     - text: Start Reading
       link: /director.md
-    - text: 闪现灵感
-      link: /nav
+    - text: view on Bilibili
+      link: https://space.bilibili.com/356541238
       theme: alt
 features:
   - icon: 📖
-    title: 前端物语
-    details: 整理前端常用知识点<small>（面试八股文）</small><br />如有异议按你的理解为主，不接受反驳
+    title: 学习中ing
+    details: 记录学习中遇到的各种轶闻趣事。
     link: /director.md
-    linkText: 前端常用知识
+    linkText: keep learning
   - icon: 📘
     title: 源码阅读
     details: 了解各种库的实现原理<br />学习其中的小技巧和冷知识
