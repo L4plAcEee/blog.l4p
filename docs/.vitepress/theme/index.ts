@@ -44,7 +44,6 @@ export default {
     if (frontmatter.value?.layoutClass) {
       props.class = frontmatter.value.layoutClass
     }
-<<<<<<< HEAD
     // 在页面中注入背景音乐
     return h('div', [
       h(DefaultTheme.Layout, props),  // 保持原来的布局结构
@@ -57,10 +56,6 @@ export default {
         style: 'display: none;' 
       })
     ])
-=======
-
-    return h(MLayout, props)
->>>>>>> parent of f031586e (.5p1)
   },
   enhanceApp({ app, router }: EnhanceAppContext) {
     createMediumZoomProvider(app, router)
