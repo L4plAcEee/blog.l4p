@@ -57,10 +57,7 @@ export default {
         style: 'display: none;' 
       })
     ])
-=======
-
     return h(MLayout, props)
->>>>>>> parent of f031586e (.5p1)
   },
   enhanceApp({ app, router }: EnhanceAppContext) {
     createMediumZoomProvider(app, router)
