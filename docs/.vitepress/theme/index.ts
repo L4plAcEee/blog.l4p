@@ -44,8 +44,17 @@ export default {
     if (frontmatter.value?.layoutClass) {
       props.class = frontmatter.value.layoutClass
     }
-
-    return h(MLayout, props)
+    // 在页面中注入背景音乐
+    return h('div', [
+      h(DefaultTheme.Layout, props),  // 保持原来的布局结构
+      h('audio', {  // 添加背景音乐
+        src: '/bgm.mp3',
+        autoplay: true,
+        loop: true,
+        controls: false,
+        style: 'display: none;'  // 隐藏音频控件
+      })
+    ])
   },
   enhanceApp({ app, router }: EnhanceAppContext) {
     createMediumZoomProvider(app, router)
