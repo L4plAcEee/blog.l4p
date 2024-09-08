@@ -1,20 +1,20 @@
 {
-  "name": "mm-notes",
+  "name": "l4p-blog",
   "type": "module",
   "private": true,
   "version": "1.0.0",
   "packageManager": "pnpm@9.6.0",
-  "description": "Development related notes",
+  "description": "Just notes.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maomao1996/mm-notes.git"
+    "url": "git+https://github.com/L4plAcEee/blog.l4p"
   },
   "bugs": {
-    "url": "https://github.com/maomao1996/mm-notes/issues"
+    "url": "https://github.com/L4plAcEee/blog.l4p"
   },
   "license": "MIT",
-  "homepage": "https://github.com/maomao1996/mm-notes#readme",
-  "author": "maomao1996 <1714487678@qq.com>",
+  "homepage": "https://github.com/L4plAcEee/blog.l4p",
+  "author": "l4plAce",
   "scripts": {
     "dev": "cross-env NODE_ENV=development vitepress dev docs --port=8732",
     "build": "vitepress build docs",
