@@ -28,7 +28,6 @@ export default defineConfig({
     logo: '/logo.png',
     nav,
     sidebar,
-    /* 右侧大纲配置 */
     outline: {
       level: 'deep',
       label: '目录',
