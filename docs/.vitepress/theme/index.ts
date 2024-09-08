@@ -1,12 +1,9 @@
 import { h, watch } from 'vue'
 import { useData, EnhanceAppContext } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-
 import { createMediumZoomProvider } from './composables/useMediumZoom'
-
 import MLayout from './components/MLayout.vue'
 import MNavLinks from './components/MNavLinks.vue'
-
 import './styles/index.scss'
 
 if (typeof window !== 'undefined') {
