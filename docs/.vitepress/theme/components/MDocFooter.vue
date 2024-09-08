@@ -1,13 +1,32 @@
 <script setup lang="ts">
+import { inject, Ref, computed } from 'vue'
 import { useData } from 'vitepress'
 import { useSidebar } from 'vitepress/theme'
-const { theme } = useData()
-const { hasSidebar } = useSidebar()
 
+import { usePageId } from '../composables'
+
+const DEV = inject<Ref<boolean>>('DEV')
+const { theme } = useData()
+const { footer, visitor } = theme.value
+
+const { hasSidebar } = useSidebar()
+const pageId = usePageId()
+
+const isDocFooterVisible = computed(() => {
+  return !DEV || footer.message || footer.copyright || visitor.badgeId
+})
 </script>
+
 <template>
-  <div v-if="theme.footer" v-show="hasSidebar" class="m-doc-footer">
+  <div v-if="isDocFooterVisible" v-show="hasSidebar" class="m-doc-footer">
     <div class="m-doc-footer-message">
+      <img
+        v-if="!DEV"
+        class="visitor"
+        :src="`https://visitor-badge.laobi.icu/badge?page_id=${visitor.badgeId}.${pageId}`"
+        title="当前页面累计访问数"
+        onerror="this.style.display='none'"
+      />
       <p v-if="theme.footer?.message">{{ theme.footer.message }}</p>
     </div>
     <p class="m-doc-footer-copyright" v-if="theme.footer?.copyright">
@@ -34,6 +53,10 @@ const { hasSidebar } = useSidebar()
 .m-doc-footer-copyright {
   display: flex;
   align-items: center;
+}
+
+.visitor {
+  margin-right: 8px;
 }
 
 @media (max-width: 414px) {
