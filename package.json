@@ -17,8 +17,10 @@
   "author": "maomao1996 <1714487678@qq.com>",
   "scripts": {
     "dev": "cross-env NODE_ENV=development vitepress dev docs --port=8732",
-    "build": "vitepress build docs",
+    "build": "npm run daily-notes && vitepress build docs",
     "build:docs": "vitepress build docs",
+    "daily-notes": "node ./scripts/daily-notes.js",
+    "update:friend": "node ./scripts/update-friend.js",
     "preview": "vitepress preview docs --port 8730",
     "lint": "prettier --write .",
     "prepare": "husky install"
