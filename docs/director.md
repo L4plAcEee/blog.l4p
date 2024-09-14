@@ -4,7 +4,7 @@
 - tmd 喜欢编程，拦不住的。
 ## 目录
 
-- [算法这一块必须拿下](/doc_learning/从零开始的ACM之旅/0_沃趣，打怪升级也得有个基本法！)
+- [算法这一块必须拿下](/doc_learning/re0-ACM/0_index)
 - [从零开始的 C++生涯](/doc_learning/cpp/0.md)
 - [Python 炒饭速成手册](/doc_learning/python/0.md)
 
