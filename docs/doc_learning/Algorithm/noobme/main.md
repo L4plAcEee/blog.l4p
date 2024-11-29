@@ -59,9 +59,9 @@
 239. 滑动窗口最大值
 347.前 K 个高频元素 -经典之Top-K问题 -大顶堆
 
-![alt text](.\src_ea9fbc530446ddd0\贪心算法总结.png) 
-![alt text](.\src_ea9fbc530446ddd0\二叉树总结.png) 
-![alt text](.\src_ea9fbc530446ddd0\回溯算法总结.png) 
-![alt text](.\src_ea9fbc530446ddd0\动态规划-总结大纲1.jpg)
+![alt text](\贪心算法总结.png) 
+![alt text](\二叉树总结.png) 
+![alt text](\回溯算法总结.png) 
+![alt text](\动态规划-总结大纲1.jpg)
 
 ---
