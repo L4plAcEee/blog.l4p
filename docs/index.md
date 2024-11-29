@@ -11,7 +11,7 @@ hero:
     alt: test image alt
   actions:
     - text: 开始阅读
-      link: /director.md
+      link: /doc_me/main.md
     - text: view on Bilibili
       link: https://space.bilibili.com/356541238
       theme: alt
@@ -32,21 +32,3 @@ features:
     link: /doc_learning/PlayChicken/index.md
     linkText: 工具-小技巧-以及感悟
 ---
-
-<style>
-/*爱的魔力转圈圈*/
-.m-home-layout .image-src:hover {
-  transform: translate(-50%, -50%) rotate(666turn);
-  transition: transform 59s 1s cubic-bezier(0.3, 0, 0.8, 1);
-}
-
-.m-home-layout .details small {
-  opacity: 0.8;
-}
-
-.m-home-layout .item:last-child .details {
-  display: flex;
-  justify-content: flex-end;
-  align-items: end;
-}
-</style>
