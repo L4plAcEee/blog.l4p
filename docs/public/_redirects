@@ -38,7 +38,6 @@
 /online-tools/                              /efficiency/online-tools      301
 /online-tools/bookmark-scripts.html         /efficiency/bookmark-scripts  301
 
-# https://notes-ebrva4dk0-fe-mm.vercel.app
 
 /tricks/utils/:path                         /workflow/utils/:path     301
 /tricks/css/:path                           /workflow/css/:path       301
