@@ -18,6 +18,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development vitepress dev docs --port=8732",
     "build": "vitepress build docs",
+    "upload-to-algolia": "node scripts/upload-to-algolia.js",
     "build:docs": "vitepress build docs",
     "preview": "vitepress preview docs --port 8730",
     "lint": "prettier --write .",
@@ -59,5 +60,12 @@
     "patchedDependencies": {
       "vite-plugin-markdown-preview@1.1.1": "patches/vite-plugin-markdown-preview@1.1.1.patch"
     }
+  },
+  "dependencies": {
+    "@algolia/client-search": "^5.15.0",
+    "algoliasearch": "^5.15.0",
+    "gray-matter": "^4.0.3",
+    "markdown-to-html": "^0.0.13",
+    "node-fetch": "^3.3.2"
   }
 }
