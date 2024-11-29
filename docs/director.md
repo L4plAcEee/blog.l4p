@@ -1,15 +1,22 @@
-# 这里是 L4plAce！
-
-- 虽然没人看，但是还是想写点东西，只是为了记录自己的知识。（大雾）<br>平时会更新一点 CS 相关的知识，从 CS 出发，不止 CS，还会有其他领域的！
-- tmd 喜欢编程，拦不住的。
+# 起点
+---
+```
+ *你听到一声呢喃
+ *一生仅仅只是一声
+ *但声音却消解融化
+ *在一切腐朽过后
+ *或许只余文字几粒
+ *但不管如何
+ *我曾来过
+ *所以，作为一名旅者
+ *相约于世纪之末吧
+ ```
+---
 ## 目录
-
-- [算法这一块必须拿下](/doc_learning/re0-ACM/0_index)
-- [从零开始的 C++生涯](/doc_learning/cpp/0.md)
-- [Python 炒饭速成手册](/doc_learning/python/0.md)
-
+- [蒜法](/doc_learning/Algorithm/index.md)
+- [网安](/doc_learning/CallMeHacker/index.md)
+- [玩姬](/doc_learning/PlayChicken/index.md)
 ### 近期计划
-
 - 先完善 director 导航页
 - 更新 C++学习页面
 - 学学 md 语法

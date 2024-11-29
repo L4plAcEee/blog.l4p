@@ -6,7 +6,6 @@ import Giscus from '@giscus/vue'
 
 import { usePageId } from '../composables'
 
-import MNavVisitor from './MNavVisitor.vue'
 import MDocFooter from './MDocFooter.vue'
 import MAsideSponsors from './MAsideSponsors.vue'
 

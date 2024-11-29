@@ -46,15 +46,7 @@ export default {
     }
     // 在页面中注入背景音乐
     return h('div', [
-      h(DefaultTheme.Layout, props),  // 保持原来的布局结构
-      h('audio', {
-        src: '/bgm.mp3',
-        autoplay: true,
-        loop: true,
-        volume: 0.3,  
-        controls: false,
-        style: 'display: none;' 
-      })
+      h(DefaultTheme.Layout, props)
     ])
   },
   enhanceApp({ app, router }: EnhanceAppContext) {

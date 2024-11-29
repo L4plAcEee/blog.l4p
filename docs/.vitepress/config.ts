@@ -69,18 +69,6 @@ export default defineConfig({
     darkModeSwitchLabel: '主题',
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式',
-
-    /*** 自定义配置 ***/
-    visitor: {
-      badgeId: 'L4plAcEee.notes',
-    },
-
-    comment: {
-      repo: 'L4plAcEee/blog.l4p',
-      repoId: 'R_kgDOMt2tMg',
-      category: 'Announcements',
-      categoryId: 'U_kgDOChSB9g',
-    },
   },
 
   /* 生成站点地图 */

@@ -1,8 +1,7 @@
-# **玩玩wsl** (2024.11.23)
-
+# **玩玩wsl** 
+- (2024.11.23)
     wsl 安装 浅尝
-    本来是想拿Vmware玩玩ubuntu虚拟机的，下好了才发现wsl出了2 支持真正的liunxkernel，便想想要不要用wsl算了
-    遂下载。
+    本来是想拿Vmware玩玩ubuntu虚拟机的，下好了才发现wsl出了2 支持真正的liunxkernel，便想想要不要用wsl算了,遂下载。
     翻了翻b站，搜索引擎，还有ai，综合考虑了一下，选择了powershell直接wsl install。
     不得不说挺方便的。
     分别下了ubuntu和kali发行版。
