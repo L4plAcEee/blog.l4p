@@ -10,7 +10,7 @@
 然后配置Nginx也是遇到了需要默认配置文件，这倒是通过挂载主机目录并映射到docker内部目录实现的。
 Redis倒是没有去配置，短时间内应该用不上。
 ```bash
-PS C:\Users\user> docker run -d --name nginx `
+>> docker run -d --name nginx `
 >>   -v D:/coding/classdesign/nginx/config:/etc/nginx `
 >>   -v D:/coding/classdesign/nginx/html:/var/www/html `
 >>   -v D:/coding/classdesign/nginx/logs:/var/log/nginx `
