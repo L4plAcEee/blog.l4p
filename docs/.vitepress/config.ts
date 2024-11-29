@@ -57,7 +57,7 @@ export default defineConfig({
     },
 
     /* Algolia DocSearch 配置 */
-    algolia,
+    // algolia, 以后再玩吧
 
     docFooter: {
       prev: '上一篇',
