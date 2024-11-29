@@ -28,9 +28,9 @@ features:
     linkText: 网安
   - icon: 💡
     title: Tools
-    details: 在玩姬中学到的一切(工具，小技巧等集合~
+    details: 在玩姬中学到的一切
     link: /doc_learning/PlayChicken/index.md
-    linkText: 常用工具库
+    linkText: 工具-小技巧-以及感悟
 ---
 
 <style>
