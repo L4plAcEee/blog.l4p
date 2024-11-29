@@ -2,7 +2,7 @@
     
 ---
 
-- [text](NoobMe/main.md)
+- [text](FirstStep/main.md)
 - [test2](CodeThinking/main.md)
 
 ---
