@@ -1,6 +1,3 @@
-# L4plACE个人博客
-
-
-
-## 基于
-- <https://maomao1996.github.io/mm-notes>
+# 个人博客
+- 纯写着玩
+- 顺带学学前端
