@@ -16,7 +16,6 @@
 - [蒜法](/doc_learning/Algorithm/index.md)
 - [网安](/doc_learning/CallMeHacker/index.md)
 - [玩姬](/doc_learning/PlayChicken/index.md)
+- [英语学习 - 词根词缀](../doc_learning/英语/词根词缀/main.md)
 ### 近期计划
 - 先完善 director 导航页
-- 更新 C++学习页面
-- 学学 md 语法
