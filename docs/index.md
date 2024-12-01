@@ -11,7 +11,7 @@ hero:
     alt: test image alt
   actions:
     - text: 开始阅读
-      link: /doc_me/main.md
+      link: 主页.md
     - text: view on Bilibili
       link: https://space.bilibili.com/356541238
       theme: alt
@@ -19,16 +19,16 @@ features:
   - icon: 📖
     title: 蒜法学习
     details: 所谓蒜法，都是钳人的智慧啊！
-    link: /doc_learning/Algorithm/index.md
+    link: /学习文档/算法/index.md
     linkText: Algorithm
   - icon: 📘
     title: 1337
     details: 不想当一名hacker吗？
-    link: /doc_learning/CallMeHacker/index.md
+    link: /学习文档/当个hacker/index.md
     linkText: 网安
   - icon: 💡
     title: Tools
     details: 在玩姬中学到的一切
-    link: /doc_learning/PlayChicken/index.md
+    link: /学习文档/PlayChicken/index.md
     linkText: 工具-小技巧-以及感悟
 ---

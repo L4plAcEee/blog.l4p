@@ -1,33 +1,14 @@
 <script setup lang="ts">
-import { withBase } from 'vitepress'
-import { VPDocAsideSponsors } from 'vitepress/theme'
-import VPLink from 'vitepress/dist/client/theme-default/components/VPLink.vue'
-
-const data = [
-  {
-    items: [
-      {
-        img: withBase('/sponsor/wechat-color.webp')
-      }
-    ]
-  },
-  {
-    items: [
-      {
-        img: withBase('/sponsor/alipay-color.webp')
-      }
-    ]
-  }
-]
+  import { withBase } from 'vitepress'
+  import { VPDocAsideSponsors } from 'vitepress/theme'
+  import VPLink from 'vitepress/dist/client/theme-default/components/VPLink.vue'
 </script>
 
 <template>
   <p class="m-sponsor-title">
     鼓励作者：欢迎
-    <VPLink href="https://github.com/maomao1996/mm-notes" no-icon>star</VPLink>
-    或打赏犒劳
+    <VPLink href="https://github.com/L4plAcEee/blog.l4p" no-icon>star</VPLink>
   </p>
-  <VPDocAsideSponsors :data="data" />
 </template>
 
 <style lang="scss">

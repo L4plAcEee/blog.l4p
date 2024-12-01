@@ -44,7 +44,6 @@ export default {
     if (frontmatter.value?.layoutClass) {
       props.class = frontmatter.value.layoutClass
     }
-    // 在页面中注入背景音乐
     return h('div', [
       h(DefaultTheme.Layout, props)
     ])

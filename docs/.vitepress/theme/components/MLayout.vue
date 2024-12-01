@@ -2,8 +2,6 @@
 import { useData, inBrowser } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { nextTick, provide } from 'vue'
-import Giscus from '@giscus/vue'
-
 import { usePageId } from '../composables'
 
 import MDocFooter from './MDocFooter.vue'
@@ -13,10 +11,8 @@ const { Layout } = DefaultTheme
 const { isDark, theme, frontmatter } = useData()
 const pageId = usePageId()
 
-const { comment } = theme.value
-
-const enableTransitions = () =>
-  'startViewTransition' in document &&
+const enableTransitions = () => 
+  'startViewTransition' in document && 
   window.matchMedia('(prefers-reduced-motion: no-preference)').matches
 
 function updateMetaThemeColor() {
@@ -73,24 +69,6 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
       <MNavVisitor />
     </template>
 
-    <template v-if="comment && frontmatter.comment !== false" #doc-footer-before>
-      <div class="doc-comments">
-        <Giscus
-          id="comments"
-          mapping="specific"
-          :term="pageId"
-          strict="1"
-          reactionsEnabled="1"
-          emitMetadata="0"
-          inputPosition="top"
-          :theme="isDark ? 'dark' : 'light'"
-          lang="zh-CN"
-          loading="lazy"
-          v-bind="{ ...comment }"
-        />
-      </div>
-    </template>
-
     <template #doc-after>
       <MDocFooter />
     </template>
@@ -104,12 +82,5 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 <style>
 .prev-next.prev-next {
   border-top: none;
-}
-
-.doc-comments {
-  margin-top: 24px;
-  margin-bottom: 48px;
-  border-top: 1px solid var(--vp-c-divider);
-  padding-top: 24px;
 }
 </style>

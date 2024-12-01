@@ -60,8 +60,8 @@ export default defineConfig({
     // algolia, 以后再玩吧
 
     docFooter: {
-      prev: '上一篇',
-      next: '下一篇',
+      prev: false,
+      next: false,
     },
 
     returnToTopLabel: '回到顶部',
