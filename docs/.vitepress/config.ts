@@ -7,6 +7,9 @@ import { head, nav, sidebar, algolia } from './configs'
 const APP_BASE_PATH = basename(process.env.APP_BASE_PATH || '')
 
 export default defineConfig({
+  ignoreDeadLinks: [
+    /^http:\/\/localhost/
+  ],
   outDir: '../dist',
   base: APP_BASE_PATH ? `/${APP_BASE_PATH}/` : '/',
 
