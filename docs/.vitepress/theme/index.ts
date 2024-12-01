@@ -6,6 +6,7 @@ import { createMediumZoomProvider } from './composables/useMediumZoom'
 
 import MLayout from './components/MLayout.vue'
 import MNavLinks from './components/MNavLinks.vue'
+import DiaryList from './components/DiaryList.vue'
 
 import './styles/index.scss'
 
@@ -49,6 +50,8 @@ export default {
     ])
   },
   enhanceApp({ app, router }: EnhanceAppContext) {
+    app.component('DiaryList', DiaryList)
+
     createMediumZoomProvider(app, router)
 
     app.component('MNavLinks', MNavLinks)
