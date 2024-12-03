@@ -3,7 +3,7 @@ import type { DefaultTheme } from 'vitepress'
 export const algolia: DefaultTheme.AlgoliaSearchOptions = {
   appId: '43KWPP3572',
   apiKey: 'ee8951db0bf1102393ba02871176539f',
-  indexName: 'note',
+  indexName: 'blog',
   placeholder: '搜索',
   translations: {
     button: {

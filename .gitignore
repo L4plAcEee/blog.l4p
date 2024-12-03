@@ -4,6 +4,7 @@ dist
 .temp
 cache
 backup_blog.bat
+algolia.config.json
 
 # Log files
 npm-debug.log*
