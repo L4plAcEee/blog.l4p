@@ -47,7 +47,7 @@ export default defineConfig({
     socialLinks: [{ icon: 'github', link: 'https://github.com/L4plAcEee' }],
 
     footer: {
-      message: '如有转载请标注本站原文地址',
+      message: '本站所有文章遵守 CC BY-SA 4.0 License.',
       copyright: 'Copyright © 2024-present L4plAce',
     },
 
