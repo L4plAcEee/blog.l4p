@@ -6,6 +6,38 @@ import frontmatter
 import markdown
 from bs4 import BeautifulSoup
 import re
+import subprocess
+import sys
+
+# 添加执行批处理文件的函数
+def run_backup():
+    try:
+        # 获取当前脚本所在目录
+        script_dir = Path(__file__).parent
+        backup_file = script_dir / 'backup_blog.bat'
+        
+        print("Starting backup process...")
+        # 执行批处理文件
+        process = subprocess.run([backup_file], 
+                               shell=True,
+                               check=True,
+                               capture_output=True,
+                               text=True)
+        
+        print("Backup completed successfully")
+        print(process.stdout)  # 打印输出结果
+        
+    except subprocess.CalledProcessError as e:
+        print("Error during backup:", e)
+        print("Error output:", e.stderr)
+        sys.exit(1)  # 如果备份失败，退出程序
+    except Exception as e:
+        print(f"Unexpected error during backup: {e}")
+        sys.exit(1)
+
+# 在开始索引之前运行备份
+print("Starting the process...")
+run_backup()
 
 def get_documents():
     documents = []
