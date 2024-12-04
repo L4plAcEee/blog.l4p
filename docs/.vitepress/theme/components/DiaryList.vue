@@ -6,9 +6,7 @@ const filteredDiaries = ref([])
 const searchDate = ref('')
 
 onMounted(async () => {
-  // 需要注意路径是相对于 .md 文件的
   const modules = import.meta.glob('/日记/*.md')
-  
   for (const path in modules) {
     const mod = await modules[path]()
     // 排除 index.md 本身
@@ -16,9 +14,18 @@ onMounted(async () => {
     
     const date = path.match(/\/(\d{4}-\d{2}-\d{2})\.md$/)?.[1]
     if (date) {
+      // 检查__pageData内容
+      console.log('PageData:', mod.__pageData)
+      
+      // 尝试从__pageData获取frontmatter
+      const pageData = mod.__pageData
+      const title = pageData?.frontmatter?.title || 
+                   pageData?.title ||
+                   "无标题"
+
       diaries.value.push({
         date,
-        title: mod.frontmatter?.title || date,
+        title,
         path: path.replace('.md', '.html').replace('/docs', '')
       })
     }
