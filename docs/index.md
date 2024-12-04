@@ -22,7 +22,7 @@ features:
     link: /学习文档/算法/index.md
     linkText: Algorithm
   - icon: 📘
-    title: 1337
+    title: L337
     details: 不想当一名hacker吗？
     link: /学习文档/当个hacker/index.md
     linkText: 网安
