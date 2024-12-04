@@ -19,4 +19,4 @@ yarn-error.log*
 
 # User-specific files
 algolia.config.json
-backup_blog.bat
+_backup_blog.bat
