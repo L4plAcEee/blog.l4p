@@ -14,7 +14,7 @@ def run_backup():
     try:
         # 获取当前脚本所在目录
         script_dir = Path(__file__).parent
-        backup_file = script_dir / 'backup_blog.bat'
+        backup_file = script_dir / '_backup_blog.bat'
         
         print("Starting backup process...")
         # 执行批处理文件
