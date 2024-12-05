@@ -5,6 +5,7 @@ tag: {"算法通关"}
 ---
 # 简介
 >> 登高望远，只觉得自己浅薄
+- 课程地址 ： `https://space.bilibili.com/8888480/channel/seriesdetail?sid=3509640&ctype=0`
 ## 节点：ForWhat？
 很简单，我需要。  
 因为我现在领悟到了一个事情，叫做共同进步  
